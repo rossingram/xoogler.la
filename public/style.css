@@ -24,6 +24,15 @@ body {
   min-height: 100vh;
 }
 
+a {
+  color: yellow;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 .hide {
   display: none !important;
 }
@@ -52,13 +61,16 @@ body {
   grid-row: 5;
 }
 
-a {
-  color: yellow;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
+.info {
+  color: #f5f5f5;
+  grid-row: 2 / 6;
+  background: rgba(0, 0, 0, 0.5);
+  font-weight: 0;
+  margin: 0 auto;
+  padding: 0 50px;
+  max-width: 500px;
+  overflow: auto;
+  letter-spacing: 0.8px;
 }
 
 .form {
