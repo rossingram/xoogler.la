@@ -1,0 +1,15 @@
+{
+  "name": "spec.la",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "budo client/index.js -d public --live"
+  },
+  "keywords": [],
+  "author": "David Guttman <david@guttman.io> (http://davidguttman.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "budo": "^11.2.0"
+  }
+}
