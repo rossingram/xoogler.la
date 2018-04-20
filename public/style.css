@@ -24,7 +24,11 @@ body {
   min-height: 100vh;
 }
 
-.grid {
+.hide {
+  display: none !important;
+}
+
+.grid, .form-grid {
   height: 100vh;
   display: grid;
   grid-template-columns: 100%;
@@ -39,7 +43,6 @@ body {
   text-transform: uppercase;
   line-height: 1em;
   text-align: center;
-  /* border: 1px solid red; */
 }
 
 .invite {
@@ -58,10 +61,39 @@ body {
   text-decoration: underline;
 }
 
+.form {
+  text-align: center;
+  grid-row: 3;
+}
+
+.form input {
+  width: 300px;
+  padding: 10px;
+  letter-spacing: 0.2em;
+  color: white;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.80);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.form button {
+  letter-spacing: 0.2em;
+  width: 320px;
+  color: yellow;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.80);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  cursor: pointer;
+}
+
+.form button:hover {
+  background: rgba(75, 75, 75, 0.80);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
 .letterbox {
   grid-column: 1 / -1;
   background: black;
-  /* border: 1px solid red; */
 }
 
 .letterbox.bottom {
