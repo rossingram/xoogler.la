@@ -82,6 +82,27 @@ p, li {
   grid-row: 5;
 }
 
+.speakers {
+  text-align: center;
+  letter-spacing: 0.2em;
+  grid-row: 4;
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.speakers > div {
+  flex: 1;
+}
+
+.speakers div {
+  color: yellow;
+  font-size: 4.6vh;
+  font-weight: bold;
+  margin-bottom: 50px;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 1);
+}
+
 .info {
   grid-row: 2 / 6;
   padding: 50px;
