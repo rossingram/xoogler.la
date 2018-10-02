@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "budo client/index.js -d public --live"
+    "dev": "serve public"
   },
   "keywords": [],
   "author": "David Guttman <david@guttman.io> (http://davidguttman.com/)",
   "license": "MIT",
   "devDependencies": {
     "budo": "^11.2.0"
+  },
+  "dependencies": {
+    "serve": "^10.0.2"
   }
 }
