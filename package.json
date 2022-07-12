@@ -1,10 +1,11 @@
 {
-  "name": "Xoogler.LA",
+  "name": "xoogler",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "serve public"
+    "dev": "serve public",
+    "start": "serve public"
   },
   "keywords": [],
   "author": "David Guttman <david@guttman.io> (http://davidguttman.com/)",
