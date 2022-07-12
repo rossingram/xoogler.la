@@ -16,7 +16,7 @@ body {
   margin: 0;
   color: white;
   background: black;
-  background-image: url(/img/bird_bg-1280.jpg);
+  background-image: url(/img/joseph-ngabo-LZr7ZcMVDs4-unsplash.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -73,6 +73,9 @@ p, li {
   text-transform: uppercase;
   line-height: 1em;
   text-align: center;
+  background: linear-gradient(to right, #fff, #fff, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .invite {
@@ -152,7 +155,7 @@ p, li {
 
 .letterbox {
   grid-column: 1 / -1;
-  background: black;
+  background: transparent;
 }
 
 .letterbox.bottom {
